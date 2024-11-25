@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>Mein Genussort</title>
+    <meta name="Generator" content="Cocoa HTML Writer" />
+    <meta name="CocoaVersion" content="2575.2" />
+    <style type="text/css">
+      html {
+        scroll-behavior: smooth;
+      }
+      .atf-image {
+        width: 100%;
+        height: 800px;
+        object-fit: cover;
+      }
+      .mybody {
+        margin: 0px;
+        font-family: "Open Sans", serif;
+      }
+      .main-container {
+        /*padding-left: 100px;*/
+        background-color: rgb(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 800px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .container {
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-bottom: 64px;
+      }
+      .googlemaps {
+        height: 350px;
+        width: 100%;
+      }
+      .footer {
+        background-color: rgb(35, 38, 41);
+        color: white;
+        padding: 100px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
+      }
+      .footer-link {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .footer-link:hover {
+        text-decoration: underline;
+      }
+      .headline {
+        color: #edbb0a;
+        font-size: 54px;
+        filter: drop-shadow(2px 6px 8px rgba(0, 0, 0, 0.5));
+      }
+      .menu {
+        position: absolute;
+        top: 32px;
+        right: 100px;
+      }
+      .menu a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        margin-left: 32px;
+        filter: drop-shadow(2px 6px 8px rgba(0, 0, 0, 0.5));
+      }
+      .menu a:hover {
+        color: #edbb0a;
+      }
+      .order-btn {
+        color: black !important;
+        background-color: #edbb0a;
+        padding: 16px;
+      }
+      .order-btn:hover {
+        background-color: #e8c755;
+      }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="mybody">
+    <img class="atf-image" src="./img/aot.jpg" />
+
+    <div class="main-container">
+      <h1 class="headline">Herzlich Willkommen</h1>
+      Hier findest du einen Überblick über unsere Speisen
+    </div>
+
+    <div class="menu">
+      <a href="#contact">RESERVIEREN</a>
+      <a class="order-btn" href="#">ONLINE BESTELLEN</a>
+      <a href="#contact">KONTAKT</a>
+      <a href="#anfahrt">ANFAHRT</a>
+    </div>
+
+    <br />
+    <div class="container">
+      <h2>Unsere Öffnungszeiten</h2>
+
+      <table>
+        <tr>
+          <td>Mo - Fr:</td>
+          <td>12:00 - 23:00 Uhr</td>
+        </tr>
+        <tr>
+          <td>Sa:</td>
+          <td>11:00 - 24:00 Uhr</td>
+        </tr>
+        <tr>
+          <td>So:</td>
+          <td>10:00 - 22:00 Uhr</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="container" id="anfahrt">
+      <h2>Anfahrt</h2>
+      <br />
+      Unsere Adresse lautet: Genussort, Adlermatte 2, 6033 Buchrain
+      <br />
+      <iframe
+        class="googlemaps"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5432.479507418631!2d8.344351277428455!3d47.094370371147456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478ffc3a5c89cc01%3A0xd4e96813b2c457f5!2sAdlermatte%202%2C%206033%20Buchrain!5e0!3m2!1sde!2sch!4v1732544104927!5m2!1sde!2sch"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <div class="container">
+      <h2>Tageskarte</h2>
+      <table>
+        <tr>
+          <td>1</td>
+          <td>Pizza</td>
+          <td>8.99 CHF</td>
+          <td>Die beste Pizza der Stadt</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Pastateller</td>
+          <td>12.50 CHF</td>
+          <td>Keiner kocht bessere Pasta</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>Salatteller</td>
+          <td>9.90 CHF</td>
+          <td>Alles frisch aus dem Garten</td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <td>Tiramisu</td>
+          <td>4.90 CHF</td>
+          <td>Wird jeden Morgen selbst gemacht</td>
+        </tr>
+      </table>
+      Jetzt die Tageskarte
+      <a href="./downloads/tageskarte.pdf" target="_blank">herunterladen</a>.
+    </div>
+
+    <div class="container" id="contact">
+      <h2>Kontakt</h2>
+      So kannst du uns kontaktieren: <br />
+      Telefon: <a href="tel:+41 77 123 45 67">+41 77 123 45 67</a> <br />
+      E-Mail: <a href="mailto:info@genussort.ch">info@genussort.ch</a><br />
+    </div>
+    <br />
+    <br />
+    <div class="container footer">
+      <div>(c) Copyright 2024 Developer Akademie GmbH<br /></div>
+      <div>
+        <a href="impressum.html" class="footer-link">Impressum</a> |
+        <a href="datenschutz.html" class="footer-link">Datenschutz</a>
+      </div>
+    </div>
+  </body>
+</html>
